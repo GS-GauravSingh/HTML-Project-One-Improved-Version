@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+    <meta name="author" content="Gaurav Singh">
+    <title>The Little Taco Shop</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <!-- Website Name and Navigation -->
+        <!-- "width": "width" attribute is used so that table will occupy full page width. -->
+        <table width="100%" cellpadding="10">
+            <tr>
+                <!-- "align": to set the alignment of data cell, "align" attribute is used. -->
+                <th align="left" width="50%">TheLittleTacoShop</th>
+
+                <td align="right" width="10%">
+                    <a href="index.html" style="text-decoration: none;">Home</a>
+                </td>
+
+                <td align="right" width="10%">
+                    <a href="index.html#aboutSection" style="text-decoration: none;">About
+                        <abbr title="Local Taco Shop" style="text-decoration: none;">LTS</abbr>
+                    </a>
+                </td>
+
+                <td align="right" width="10%">
+                    <a href="index.html#menuSection" style="text-decoration: none;">Our Menu</a>
+                </td>
+
+                <td align="right" width="10%">
+                    <a href="StoreHours.html" style="text-decoration: none;">Store Hours</a>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Header Image -->
+        <img src="Images/TrayOfTacos.png" alt="A Tray of Tasty Tacos" style="max-width: 100%;"
+            title="A Tray of Tasty Tacos">
+    </header>
+
+    <!-- Main -->
+    <main>
+        <br>
+        <center>
+            <h2>
+                Get in Touch with Us
+
+                <!-- Horizontal Rule -->
+                <hr width="4%" color="black">
+            </h2>
+        </center>
+
+        <table width="100%">
+
+            <td width="60%">
+
+
+                <form action="https://httpbin.org/post" method="post">
+                    <fieldset>
+                        <legend>Send Us a Message</legend>
+
+                        <table width="100%">
+                            <tr>
+                                <th width="20%">
+                                    <label for="userName">Name:</label>
+                                </th>
+
+                                <td width="80%">
+                                    <input type="text" name="username" id="userName" placeholder="Your Name" required
+                                        autofocus autocomplete="on">
+                                </td>
+
+                            </tr>
+
+                            <tr>
+                                <th width="20%">
+                                    <label for="userEmail">Email:</label>
+                                </th>
+
+                                <td width="80%">
+                                    <input type="text" name="useremail" id="userEmail" placeholder="Your Email"
+                                        required autocomplete="on">
+                                </td>
+
+                            </tr>
+
+                            <tr>
+                                <th width="20%">
+                                    <label for="message">Your Message:</label>
+                                </th>
+
+                                <td width="80%">
+                                    <textarea name="Message" id="message" cols="80" rows="10"
+                                        placeholder="Type your message here."></textarea>
+                                </td>
+
+                            </tr>
+                        </table>
+
+                    </fieldset>
+
+                    <button type="reset">Reset</button>
+                    <button type="submit">Submit</button>
+
+                </form>
+
+            </td>
+
+            <td width="40%">
+                <img src="Images/contactImage.jpg" alt="Contact Us" style="max-width: 100%;"
+                    title="Get In Touch With Us" loading="lazy">
+            </td>
+
+        </table>
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+
+        <table width="100%">
+            <tr>
+                <td width="30%"></td>
+                <th width="30%">
+                    Copyright &copy; The Little Taco Shop
+                </th>
+
+                <td width="30%" align="right" style="font-size: 22px;">
+                    <a href="#">
+                        <i class="far fa-arrow-alt-circle-up"></i>
+                    </a>
+                </td>
+            </tr>
+        </table>
+
+    </footer>
+
+
+</body>
+
+</html>
